@@ -53,7 +53,45 @@
         </header>
     
         <!-- Main Content -->
-        <div class="container my-5">
+     <p id="demo"></p>
+
+    <script>
+        let day;
+        switch(new Date().getDay()) {
+            case 0: 
+            day = "Sunday";
+            break;
+
+            case 1:
+                day = "Monday";
+                break;
+            case 2: 
+                day = "Tuesday";
+                break;
+
+            case 3:
+                    day = "Wednesday";
+                    break;
+
+            case 4:
+                    day = "Thursday";
+                    break;
+                    
+            case 5:
+                day = "Friday";
+                break;
+            
+            case 6:
+                day = "Saturday";
+                break;          
+        }
+
+        document.getElementById("demo").innerHTML = "Today is " + day; 
+
+    </script>
+    <br>  
+    
+    <div class="container my-5">
             <div class="row">
                 <!-- First Column: Welcome Message -->
                 <div class="col-md-4">
@@ -91,7 +129,7 @@
                         <h2 class="text-center" style="color: aliceblue;"><b>St Josephine Bakhita Primary School</b></h2>
                         <b class="card"><img src="bkt pri.jpg" alt="Bakhita Primary"></b>
                         <p>St Josephine Bakhita primary school focuses on foundational education for young children.</p>
-                        <ul>
+                        <ul style="color: violet; list-style-type: square;>
                             <li>Interactive learning programs</li>
                             <li>Creative arts and crafts</li>
                             <li>Basic sports and recreational activities</li>
@@ -110,7 +148,7 @@
                     <section id="womens-union" class="my-4">
                         <h2 class="text-center" style="color: aliceblue;"><b>Hope for Kabingo Women's Union</b></h2>
                         <p>The Women's Union empowers women through skills development and community initiatives.</p>
-                        <ul>
+                        <ul style="color: violet; list-style-type: square;>
                             <li>Workshops on tailoring and crafting</li>
                             <li>Community development programs</li>
                             <li>Women’s health and wellness seminars</li>
@@ -130,7 +168,7 @@
                         <h2 class="text-center" style="color: aliceblue;"><b>Bakhita Guest House</b></h2>
                         <p class="card"><img src="guest 2.jpg" alt="Bakhita Guest House"></p>
                         <p>The guest house offers accommodation and hospitality services for visitors.</p>
-                        <ul>
+                        <ul style="color: violet; list-style-type: square;>
                             <li>Comfortable lodging facilities</li>
                             <li>On-site dining options</li>
                             <li>Event hosting and meeting rooms</li>
@@ -150,7 +188,7 @@
                         <h2 class="text-center" style="color: aliceblue;"><b>Hospital</b></h2>
                        <p class="card"><img src="Hospital.png" alt="Bakhita H/C" ></p>
                         <p>The hospital provides quality healthcare services to the community.</p>
-                        <ul>
+                        <ul style="color: violet; list-style-type: square;>
                             <li>Outpatient and inpatient care</li>
                             <li>Maternal and child health services</li>
                             <li>Emergency medical services</li>
@@ -165,7 +203,14 @@
     </div>
     
         <br>
-
+<marquee behavior="scroll" direction="left">
+    <img src="s.4 2024.jpg" alt="Candidates s.4 2024" height="400" width="400" style="border-radius: 50%;">
+    <img src="s.4 boys.jpg" alt="Bakhita s.4 Boys" height="400" width="400">
+    <img src="s.4 girlz.jpg" alt="Bakhita s.4 Girls" height="400" width="400" style="border-radius: 50%;">
+    <img src="s.6 2024.jpg" alt="S.6 Girls" height="400" width="400">
+    <img src="pri prayer.jpg" alt="Primary Candidates Mass to exams" height="400" width="400" style="border-radius: 50%;">
+</marquee>
+            
         <div class="text-center" style="padding: 10px;">
         <div class="card" style="background-color: #e1b382;">
             <h4 style="color: skyblue;"><b>*A* Level block!!</b></h4>
@@ -198,6 +243,9 @@
             <p>&copy; 2024 St. Josephine Bakhita. All rights reserved.</p>
         
             <p><b>Visit our website:</b><a href=" https://www.sjb-kabingo.org"> www.sjb-org.ac.ug</a></p>
+      <marquee behavior="scroll" direction="Left">
+            <p style="color: orange;">St Josephine Bakhita Organization is a private organization that prioritizes academic, health, residential and community well-being. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       Together We Grow Strong!!</p>
+        </marquee>
         </footer>
     
         <!-- Bootstrap JS -->
