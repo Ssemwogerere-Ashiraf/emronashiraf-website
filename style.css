@@ -25,8 +25,8 @@ body {
     filter: drop-shadow(0 0 10px);
 }
 img{
-    filter: drop-shadow(0 0 20px);
-    filter: hue-rotate(150)
+    filter: drop-shadow(0 0 13px);
+    filter: hue-rotate(50)
 }
 .flex-container{
     display: flex;
