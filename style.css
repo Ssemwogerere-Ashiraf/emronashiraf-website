@@ -4,7 +4,7 @@ body {
     margin-left: 10px;
 }
 .navbar {
-    background-color: #004080;
+    background-color: #12343b;
 }
 .navbar-brand, .nav-link {
     color: #fff !important;
@@ -20,8 +20,13 @@ body {
 }
 .card {
     margin-bottom: 1.5rem;
-    background-color: greenyellow;
+    background-color: #2d545e;
     text-decoration-color: #f8f9fa;
+    filter: drop-shadow(0 0 10px);
+}
+img{
+    filter: drop-shadow(0 0 20px);
+    filter: hue-rotate(150)
 }
 .flex-container{
     display: flex;
